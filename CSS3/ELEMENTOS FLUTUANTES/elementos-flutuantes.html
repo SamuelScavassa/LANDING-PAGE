@@ -1,0 +1,70 @@
+<!--
+
+clear: left/ right/ both /none
+Limpa o fluxo 
+float: left/ right /none
+Essa tag muda o fluxo dos conteúdos, sempre ao final utilizar o clear.
+
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página Principal</title>
+
+	<style type="text/css">
+		
+		.conteudo{
+			background: blue;
+			border: 1px solid grey;
+			width: 150px;
+			height: 150px;
+			float: right;
+			margin: 10px;
+		}
+
+		.clear{
+			clear: both ;
+		}
+
+		/*
+		.conteudo1{
+			background: red;
+			border: 1px solid grey;
+			width: 150px;
+			height: 150px;
+			float: right;
+		}
+		*/
+
+	</style>
+
+</head>
+
+	<body>
+		<div>
+			<div class="conteudo">
+				Conteúdo 1
+			</div>
+
+			<div class="conteudo">
+				Conteúdo 2
+			</div>
+
+			<div class="conteudo">
+				Conteúdo 3
+			</div>
+		</div>
+		<div class="clear">
+		 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+	</body>
+
+</html>

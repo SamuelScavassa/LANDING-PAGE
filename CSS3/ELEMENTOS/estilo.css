@@ -1,0 +1,18 @@
+/* 
+para modificar o tipo padrão de uma tag usar display inline/ block/ inline-block
+*/
+
+
+.borda{
+	border: 1px solid red;
+}
+
+.borda2{
+	border: 1px solid red;
+	display: inline;
+}
+
+.borda3{
+	border: 1px solid red;
+	display: inline-block;
+}
